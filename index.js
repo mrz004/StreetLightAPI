@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/status", (req, res) => {
-  console.log("in /status", req.query);
+//   console.log("in /status", req.query);
   const { query } = req;
   // res.set("content-type", "text")
 
