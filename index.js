@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/status", (req, res) => {
-  // console.log("in /status", req.query);
+  console.log("in /status", req.query);
   const { query } = req;
   // res.set("content-type", "text")
 
@@ -43,7 +43,7 @@ app.get("/status", (req, res) => {
 });
 
 app.get("/set", (req, res) => {
-  // console.log("in /set", req.query);
+  console.log("in /set", req.query);
   res.set("content-type", "application/json");
   const { query } = req;
   // console.log(query)
